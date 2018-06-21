@@ -5,7 +5,6 @@ public class Strrev{
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
        StringBuilder sb = new StringBuilder(s);
-        System.out.println("Reversed string is:");
-        System.out.println(sb.reverse().toString());
+       System.out.println(sb.reverse().toString());
      }
 }
