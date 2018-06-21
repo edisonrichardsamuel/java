@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Fact {
 	public static void main(String a[]) {
-		Scanner sc=new Scanner(System.in);
-        int s=sc.nextInt();
-        int fact=1;
-        for(int i=1;i<=s;i++)
+		Scanner sc1=new Scanner(System.in);
+        int s=sc1.nextInt();
+        int f=1;
+        for(int ii=1;ii<=s;ii++)
         {
-            fact=fact*i;
+            f=f*ii;
         }
-         System.out.println(fact);
+         System.out.println(f);
 	}
 
 }
